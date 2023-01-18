@@ -1,0 +1,19 @@
+Zad. 1. [6p] Zdefiniować w OCaml funktor obsługujący nieskończoną kolejkę FIFO
+reprezentowaną przez typ type 'a tk= KolejkaPusta | Skladowa of 'a * 'a tk.
+W ramach funktora zdefiniować następujące funkcje: tworzącą kolejkę pustą,
+wstawiającą element do kolejki, wybierającą pierwszy element kolejki,
+usuwającą element z kolejki, sprawdzającą czy kolejka jest pusta,
+wyświetlającą elementy kolejki w postaci listy, wyświetlającą
+liczbę elementów kolejki spełniających warunek w op z gdzie w jest
+zadaną parametrem funkcji wartością typu element kolejki,
+op będącym parametrem funkcji operatorem relacji ze zbioru (<. <=, >, >=)
+a z jest elementem kolejki. Zaprezentować działanie funktora (wszystkie funkcje)
+dla kolejki elementów typu prostego i typu złożonego.
+
+Zad. 2. [4p] Zdefiniować w Scala klasę Wektor, która będzie obsługiwała następujące operacje
+na wektorach modelowanych poprzez tablice liczb rzeczywistych:
+dodawanie (operator +),
+odejmowanie (operator -),
+znajdowanie iloczynu skalarnego (operator *+),
+wyświetlanie.
+Zdefiniować kilka wektorów różnej długości a następnie zaprezentować działanie nakładanych na nie operatorów.
